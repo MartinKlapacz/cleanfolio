@@ -1,71 +1,50 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://martinklapacz.org',
+  title: 'Hello',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
-  description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+  name: 'Martin Klapacz',
+  role: 'Master\'s degree student at TUM',
+  description: '',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/martin-klapacz-b68280218/',
+    github: 'https://github.com/MartinKlapacz',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
+  // projects can be added and removed
   {
-    name: 'Project 1',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
+    name: 'Bachelor Thesis: Multifidelity Gaussian Processes for Uncertainty Quantification',
+    description: 'This project was part of my Bachelor\'s thesis and provides parameterized implementations of various multi-fidelity Gaussian Process Regression algorithms.',
+    stack: ['Gaussian Processes', 'Uncertainty Quantification', 'Statistics', 'Python'],
+    sourceCode: 'https://github.com/MartinKlapacz/multifidelity-datafusion-GPs',
+  }
+  // todo: add more
 ]
 
 const skills = [
   // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Java Spring',
+  'Docker',
+  'Nginx',
+  'Rust',
+  'gRPC',
+  'Hibernate',
+  'Node.js (Express)',
+  'Postgres',
+  'MongoDB',
+  'Docker',
+  'React.js',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'klapacz.martin@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
