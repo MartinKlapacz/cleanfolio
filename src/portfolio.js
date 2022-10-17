@@ -41,6 +41,7 @@ const skills = [
   'Rust',
   'gRPC',
   'Hibernate',
+  'Statistics',
   'Node.js (Express)',
   'Postgres',
   'MongoDB',
