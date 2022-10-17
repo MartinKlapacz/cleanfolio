@@ -1,8 +1,8 @@
 FROM node:16-alpine3.15
 
-WORKDIR /portfolio
+WORKDIR /cleanfolio
 
-ENV PATH /portfolio/node_modules/.bin:$PATH
+ENV PATH /cleanfolio/node_modules/.bin:$PATH
 
 COPY package.json ./
 COPY package-lock.json ./
