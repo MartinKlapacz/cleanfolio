@@ -1,7 +1,7 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://martinklapacz.org',
-  title: 'Hello',
+  title: 'Hi',
 }
 
 const about = {
@@ -30,7 +30,20 @@ const projects = [
     ],
     sourceCode: 'https://github.com/MartinKlapacz/multifidelity-datafusion-GPs',
   },
-  // todo: add more
+  {
+    name: 'Interactive Linear Regression',
+    description:
+        "In numpy there are multiple ways of how to map an array using a function. But which one is the most efficient? This small project of mine measures their performances and visualizes the results.",
+    stack: ['Numpy'],
+    sourceCode: 'https://github.com/MartinKlapacz/np-array-maps',
+  },
+  {
+    name: 'Pacman Hunter',
+    description:
+        "My very first Python project I created when I started to learn coding",
+    stack: ['Pygame'],
+    sourceCode: 'https://github.com/MartinKlapacz/PacManHunter',
+  }
 ]
 
 const skills = [
