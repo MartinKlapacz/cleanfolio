@@ -48,7 +48,7 @@ const projects = [
 
 const skills = [
   // skills can be added or removed
-  'Java Spring',
+  'Spring Boot',
   'Docker',
   'Nginx',
   'Rust',
@@ -59,7 +59,6 @@ const skills = [
   'Node.js (Express)',
   'Postgres',
   'MongoDB',
-  'Docker',
 ]
 
 const contact = {
