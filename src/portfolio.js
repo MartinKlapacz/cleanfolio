@@ -55,11 +55,11 @@ const skills = [
   'gRPC',
   'Hibernate',
   'Statistics',
+  'Angular',
   'Node.js (Express)',
   'Postgres',
   'MongoDB',
   'Docker',
-  'React.js',
 ]
 
 const contact = {
