@@ -38,6 +38,13 @@ const projects = [
     sourceCode: 'https://github.com/MartinKlapacz/np-array-maps',
   },
   {
+    name: 'My Dockerized Cloud Setup',
+    description:
+        "This is the configuration of some private services I host on my Strato instance (Linux v10-8).",
+    stack: ['Docker, Nginx, MakeFile'],
+    sourceCode: 'https://github.com/MartinKlapacz/my-cloud-server-setup',
+  },
+  {
     name: 'Pacman Hunter',
     description:
         "My very first Python project I created when I started to learn coding",
@@ -60,6 +67,7 @@ const skills = [
   'Postgres',
   'MongoDB',
 ]
+
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
