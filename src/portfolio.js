@@ -33,7 +33,7 @@ const projects = [
   {
     name: 'Interactive Linear Regression',
     description:
-        "In numpy there are multiple ways of how to map an array using a function. But which one is the most efficient? This small project of mine measures their performances and visualizes the results.",
+        "I little game to play around with Linear Regression. You can add points and see how this affects the current curve.",
     stack: ['Numpy'],
     sourceCode: 'https://github.com/MartinKlapacz/np-array-maps',
   },
