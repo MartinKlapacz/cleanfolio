@@ -44,7 +44,7 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_TOKEN }}
 
-      - name: Build and push
+      - name: Build and push image to Dockerhub
         uses: docker/build-push-action@v3
         with:
           context: .
@@ -53,3 +53,16 @@ jobs:
 
       - name: Image digest
         run: echo ${{ steps.docker_build.output.digest }}
+
+      - name: Pull image and deploy with Docker Compose
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.SSH_PORT }}
+          script: |
+            docker-compose -f ./websites.yml down
+            docker-compose -f ./websites.yml pull
+            docker-compose -f ./websites.yml up -d
+
