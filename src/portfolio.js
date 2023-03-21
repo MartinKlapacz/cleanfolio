@@ -62,6 +62,7 @@ const skills = [
   'gRPC',
   'Hibernate',
   'Statistics',
+  'Django',
   'Angular',
   'Node.js (Express)',
   'Postgres',
