@@ -33,7 +33,7 @@ const projects = [
   {
     name: 'Interactive Linear Regression',
     description:
-        "I little game to play around with Linear Regression. You can add points and see how this affects the current curve.",
+        "A little game to play around with Linear Regression. You can add points and see how this affects the current curve.",
     stack: ['Numpy'],
     sourceCode: 'https://github.com/MartinKlapacz/np-array-maps',
   },
