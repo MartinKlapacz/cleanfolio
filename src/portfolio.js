@@ -55,18 +55,18 @@ const projects = [
 
 const skills = [
   // skills can be added or removed
-  'Spring Boot',
+  'Java Spring Boot',
   'Docker',
-  'Nginx',
-  'Rust',
-  'gRPC',
+  'Tokio (Rust)',
+  'gRPC (Java, Rust)',
   'Hibernate',
-  'Statistics',
   'Django',
+  'Django REST Framework',
+  'Nginx',
+  'Statistics',
   'Angular',
-  'Node.js (Express)',
   'Postgres',
-  'MongoDB',
+  'Elasticsearch',
 ]
 
 
