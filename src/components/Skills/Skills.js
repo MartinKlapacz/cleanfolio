@@ -10,7 +10,7 @@ const Skills = () => {
       <h2 className='section__title'>Frameworks</h2>
       <ul className='skills__list'>
         {skills.map(([skill, link]) => (
-            <a key={uniqid()} href={link} >
+            <a key={uniqid()} href={link} target='_blank' rel="noopener noreferrer">
               <li  className='skills__list-item btn btn--plain'>
                 {skill}
               </li>
