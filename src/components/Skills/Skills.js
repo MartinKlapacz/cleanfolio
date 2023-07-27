@@ -9,10 +9,12 @@ const Skills = () => {
     <section className='section skills' id='skills'>
       <h2 className='section__title'>Frameworks</h2>
       <ul className='skills__list'>
-        {skills.map((skill) => (
-          <li key={uniqid()} className='skills__list-item btn btn--plain'>
-            {skill}
-          </li>
+        {skills.map(([skill, link]) => (
+            <a key={uniqid()} href={link} >
+              <li  className='skills__list-item btn btn--plain'>
+                {skill}
+              </li>
+            </a>
         ))}
       </ul>
     </section>
