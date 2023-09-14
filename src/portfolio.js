@@ -19,6 +19,14 @@ const about = {
 const projects = [
   // projects can be added and removed
   {
+    name: "Chord Network",
+    description: "This is a fully functional implementation of a distributed hash table. Nodes of a Chord cluster form a ring where nodes can freely join and leave. Each node manages a key-value-storage and exposes a Tcp interface for PUT and GET requests. ",
+    stack: [
+        "Rust", "Tokio", "gRPC", "AsyncIO", "Tonic"
+    ],
+    sourceCode: "https://github.com/MartinKlapacz/Chord"
+  },
+  {
     name: 'Bachelor Thesis: Multifidelity Gaussian Processes for Uncertainty Quantification',
     description:
       "This project was part of my Bachelor's thesis and provides parameterized implementations of various multi-fidelity Gaussian Process Regression algorithms.",
