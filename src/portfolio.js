@@ -63,16 +63,16 @@ const projects = [
 
 const skills = [
   // skills can be added or removed
-  ['Java Spring Boot', 'https://spring.io/projects/spring-boot'],
+  ['Spring Boot (Java, Kotlin)', 'https://spring.io/projects/spring-boot'],
   ['Docker', 'https://www.docker.com/'],
   ['Tokio (Rust)', 'https://tokio.rs/'],
   ['gRPC (Java, Rust)', 'https://grpc.io/'],
   ['Hibernate', 'https://hibernate.org/'],
   ['Django', 'https://www.djangoproject.com/'],
   ['Django REST Framework', 'https://www.django-rest-framework.org/'],
+  ['React', 'https://react.dev/'],
   ['Nginx', 'https://www.nginx.com/'],
   ['Statistics', ''],
-  ['Angular', 'https://angular.io/'],
   ['Postgres', 'https://www.postgresql.org/'],
   ['Elasticsearch', 'https://www.elastic.co/'],
 ]
