@@ -62,7 +62,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            docker compose -f ./websites.yml down
-            docker compose -f ./websites.yml pull
-            docker compose -f ./websites.yml up -d
+            docker compose -f ./cleanfolio.yml down
+            docker compose -f ./cleanfolio.yml pull
+            docker compose -f ./cleanfolio.yml up -d
 
