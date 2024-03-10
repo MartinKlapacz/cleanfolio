@@ -9,7 +9,7 @@ const about = {
   name: 'Martin Klapacz',
   role: "Master's degree student at TUM",
   description: '',
-  resume: 'https://example.com',
+  resume: 'https://martinklapacz.org/resume',
   social: {
     linkedin: 'https://www.linkedin.com/in/martin-klapacz-b68280218/',
     github: 'https://github.com/MartinKlapacz',
