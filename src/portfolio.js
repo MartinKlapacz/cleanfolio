@@ -7,7 +7,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Martin Klapacz',
-  role: "Master's degree student at TUM",
+  role: "Full-stack software engineer @ Check24 Financial Services",
   description: '',
   resume: 'https://martinklapacz.org/resume',
   social: {
@@ -17,9 +17,18 @@ const about = {
 }
 
 const projects = [
-  // projects can be added and removed
   {
-    name: "Chord Network",
+    name: 'Master Thesis in cooperation with Avelios Medical Gmbh: Implementation of a Billing Optimization Framework for Clinics',
+    description: 'Implemented a framework and rule engine embedded into a Java spring boot microservice that I built from scratch. The framework is powered by a JSON based rule language automating medical billing',
+    stack: ['Spring boot', 'Hibernate', 'gRPC', 'Pydantic'],
+  },
+  {
+    name: 'University Project in cooperation with Avelios Medical Gmbh: Making clinical data accessible through SnomedCT',
+    description: 'Implemented a system allowing querying medical data with SnomedCT codes making use of the SnomedCT ontology. Designed and implemented an object rule language enabling automatic derivation of SnomedCT codes from medical data',
+    stack: ['Spring boot', 'Hibernate', 'gRPC', 'Pydantic'],
+  },
+  {
+    name: "Rust Chord Network",
     description: "This is a fully functional implementation of a distributed hash table. Nodes of a Chord cluster form a ring where nodes can freely join and leave. Each node manages a key-value-storage and exposes a Tcp interface for PUT and GET requests. ",
     stack: [
         "Rust", "Tokio", "gRPC", "AsyncIO", "Tonic"
@@ -63,18 +72,19 @@ const projects = [
 
 const skills = [
   // skills can be added or removed
-  ['Spring Boot (Java, Kotlin)', 'https://spring.io/projects/spring-boot'],
+  ['Spring Framework', 'https://docs.spring.io/spring-framework/reference/index.html'],
+  ['Spring Data JDBC', 'https://docs.spring.io/spring-data/relational/reference/'],
+  ['Spring Data JPA', 'https://docs.spring.io/spring-data/jpa/reference/'],
+  ['GraphQl Java', 'https://www.graphql-java.com/'],
+  ['React', 'https://react.dev/'],
+  ['Django', 'https://www.djangoproject.com/'],
+  ['Django REST Framework', 'https://www.django-rest-framework.org/'],
   ['Docker', 'https://www.docker.com/'],
   ['Tokio (Rust)', 'https://tokio.rs/'],
   ['gRPC (Java, Rust)', 'https://grpc.io/'],
-  ['Hibernate', 'https://hibernate.org/'],
-  ['Django', 'https://www.djangoproject.com/'],
-  ['Django REST Framework', 'https://www.django-rest-framework.org/'],
-  ['React', 'https://react.dev/'],
-  ['Nginx', 'https://www.nginx.com/'],
   ['Statistics', ''],
   ['Postgres', 'https://www.postgresql.org/'],
-  ['Elasticsearch', 'https://www.elastic.co/'],
+  ['MongoDB', 'https://www.mongodb.com/'],
 ]
 
 
