@@ -18,14 +18,14 @@ const about = {
 
 const projects = [
   {
-    name: 'Master Thesis in cooperation with Avelios Medical Gmbh: Implementation of a Billing Optimization Framework for Clinics',
-    description: 'Implemented a framework and rule engine embedded into a Java spring boot microservice that I built from scratch. The framework is powered by a JSON based rule language automating medical billing',
-    stack: ['Spring boot', 'Hibernate', 'gRPC', 'Pydantic'],
+    name: 'Master Thesis: Implementation of a Billing Optimization Framework for Clinics',
+    description: 'Implemented a framework and rule engine embedded into a Java spring boot microservice that I built from scratch. The framework is powered by a JSON based rule language automating medical billing (in cooperation with Avelios Medical Gmbh)',
+    stack: ['Spring boot', 'Spring JPA', 'gRPC', 'Pydantic'],
   },
   {
-    name: 'University Project in cooperation with Avelios Medical Gmbh: Making clinical data accessible through SnomedCT',
-    description: 'Implemented a system allowing querying medical data with SnomedCT codes making use of the SnomedCT ontology. Designed and implemented an object rule language enabling automatic derivation of SnomedCT codes from medical data',
-    stack: ['Spring boot', 'Hibernate', 'gRPC', 'Pydantic'],
+    name: 'University Project: Making clinical data accessible through SnomedCT',
+    description: 'Implemented a system allowing querying medical data with SnomedCT codes making use of the SnomedCT ontology. Designed and implemented an object rule language enabling automatic derivation of SnomedCT codes from medical data (in cooperation with Avelios Medical Gmbh)',
+    stack: ['Rust', 'Elasticsearch', 'Spring boot', 'Spring JPA', 'gRPC'],
   },
   {
     name: "Rust Chord Network",
